@@ -11,7 +11,7 @@ Some of the challenges encountered during this project include:
 **Backend Functionality:** The backend system for trip generation occasionally failed to produce optimal trips. Further work is required to improve this aspect.
 **GPT Response Structure:** The inability to change the response structure of GPT presented some issues. For instance, when the AI recommends a city, additional Named Entity Recognition (NER) had to be performed using Spacy to extract the city names. Similarly, during the trip editing stage, the backend assumes the GPT response will be a numbered list, complicating the extraction of recommendations.
 
-## What have you learned?
+## Learnings
 This project was my first deep dive into frontend development. I got to learn and work with React and TypeScript, gaining valuable practical experience. The Material-UI (MUI) components particularly were a joy to work with, providing a flexible and effective way to create a responsive and user-friendly interface.
 
 Drip v2 has benefited greatly from the integration of OpenAI's GPT model, which gave me a fantastic opportunity to familiarize myself more with the OpenAI API, learn how to use the Chat models, and even carry out Named Entity Recognition with spaCy!
