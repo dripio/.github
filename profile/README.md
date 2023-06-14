@@ -9,6 +9,7 @@ The app was built using Flask for the backend, React for the frontend, and Fireb
 Some of the challenges encountered during this project include:
 
 **Backend Functionality:** The backend system for trip generation occasionally failed to produce optimal trips. Further work is required to improve this aspect.
+
 **GPT Response Structure:** The inability to change the response structure of GPT presented some issues. For instance, when the AI recommends a city, additional Named Entity Recognition (NER) had to be performed using Spacy to extract the city names. Similarly, during the trip editing stage, the backend assumes the GPT response will be a numbered list, complicating the extraction of recommendations.
 
 ## Learnings
